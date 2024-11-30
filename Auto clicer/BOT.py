@@ -16,7 +16,7 @@ db_name = "mydb"
 
 
 
-bot = telebot.TeleBot("7000214265:AAHImueTHBaJCQhQOirapFRmFvYlJoIzBGs")
+bot = telebot.TeleBot(Token)
 @bot.message_handler(commands=['start'])
 def start(message):
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
